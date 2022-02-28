@@ -8,8 +8,11 @@ Brute force all possible easy and short passwords to enter the site
 
 ## How:
 Python Run command in Terminal:
-> python main.py localhost 9090  # "localhost" - server address and "9090" - port
+
+```
+python main.py localhost 9090  # "localhost" - server address and "9090" - port
 password
+```
 
 -------------------------------------------------------------------------------
 
