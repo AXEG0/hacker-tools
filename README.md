@@ -35,7 +35,7 @@ qWeRTy
 exception_catcher
 
 ## Why:
-Able to crack a login with a dictionary of different logins and a complex
+Capable to crack a login with a dictionary of different logins and a complex
 password randomly generated from several characters.
 Cracker relies on a server return vulnerability: "An exception occurred during
 login" when it found one valid character.
