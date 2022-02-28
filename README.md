@@ -53,9 +53,10 @@ format.
 ## How:
 1. Run test_server
 2. Python Run command in Terminal:
+```
 > python main.py localhost 9090
 {"login": "new_user", "password": "Sg967s"}
-
+```
 -------------------------------------------------------------------------------
 
 ## What:
@@ -69,5 +70,7 @@ As a result, it uses the time vulnerability to find the password.
 
 ## How:
 Python Run command in Terminal:
+```
 > python main.py localhost 9090  # "localhost" - server address and "9090" - port
 {"login": "admin3", "password": "mlqDz33x"}
+```
