@@ -1,36 +1,36 @@
 Python 3 and higher
 
-###### What:
+## What:
 simple_brute_force
 
-###### Why:
+## Why:
 Brute force all possible easy and short passwords to enter the site
 
-###### How:
+## How:
 Python Run command in Terminal:
 > python main.py localhost 9090  # "localhost" - server address and "9090" - port
 password
 
 -------------------------------------------------------------------------------
 
-###### What:
+## What:
 typical_passwords_hacker
 
-###### Why:
+## Why:
 Capable of cracking more complex passwords using a database of 1,000 real
 passwords with a case change of different letters
 
-###### How:
+## How:
 Python Run command in Terminal:
 > python main.py localhost 9090  # "localhost" - server address and "9090" - port
 qWeRTy
 
 -------------------------------------------------------------------------------
 
-###### What:
+## What:
 exception_catcher
 
-###### Why:
+## Why:
 Able to crack a login with a dictionary of different logins and a complex
 password randomly generated from several characters.
 Cracker relies on a server return vulnerability: "An exception occurred during
@@ -46,7 +46,7 @@ password.
 Finally, the program outputs the username and password combination in JSON
 format.
 
-###### How:
+## How:
 1. Run test_server
 2. Python Run command in Terminal:
 > python main.py localhost 9090
@@ -54,16 +54,16 @@ format.
 
 -------------------------------------------------------------------------------
 
-###### What:
+## What:
 ping_exception_catcher
 
-###### Why:
+## Why:
 The same as the previous cracker, but now it calculates the time period for which
 the response arrives and finds out which initial characters are suitable for the
 password.
 As a result, it uses the time vulnerability to find the password.
 
-###### How:
+## How:
 Python Run command in Terminal:
 > python main.py localhost 9090  # "localhost" - server address and "9090" - port
 {"login": "admin3", "password": "mlqDz33x"}
